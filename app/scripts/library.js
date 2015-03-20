@@ -31,7 +31,7 @@ function doATTR(prop, val) {
 
 }
 
-function (selector) {
+function sel(selector) {
 	var self = {};
 	self.selector = selector;
 	self.element = document.querySelector(self.selector);
